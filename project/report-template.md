@@ -17,7 +17,7 @@ My public score improved from 1.79465 to 0.63665. The Year is highly correlated 
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-The best tuned model had a score of 0.48056 which was the highest I could get.
+The best tuned model had a score of 0.46506 which was the highest I could get.
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 Feature engineering to get more predictive power from the features.
@@ -25,9 +25,9 @@ Feature engineering to get more predictive power from the features.
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+|initial|1000|300|1000|1.43272|
+|add_features|1000|300|300|0.48506|
+|hpo|1000|300|1000|0.46384|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
